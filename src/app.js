@@ -16,11 +16,10 @@ function getRandomNumber(max) {
 
 
 function getRandom(anyArray) {
-  let max = anyArray.length - 1;
+  let max = anyArray.length;
   let random = getRandomNumber(max)
   return anyArray[random]
 }
-
 window.onload = function () {
   //write your code here
   console.log("Hello Rigo from the console!");
